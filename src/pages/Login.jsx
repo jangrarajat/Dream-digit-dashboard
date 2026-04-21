@@ -32,8 +32,8 @@ export default function Login() {
         {/* Header */}
         <div className="text-center mb-8">
           <div className="flex justify-center mb-4">
-            <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-blue-600 to-blue-500 flex items-center justify-center shadow-lg">
-              <div className="text-white text-2xl font-bold">DD</div>
+            <div className="h-16 w-30 rounded-2xl  0 flex items-center justify-center shadow-lg">
+              <img src="https://res.cloudinary.com/djtvxmttf/image/upload/v1776599723/mkmk_ckb9cn.png" alt="logo" className="h-full w-full " />
             </div>
           </div>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Dream Digit</h1>
