@@ -96,13 +96,7 @@ export default function Login() {
             </button>
 
             {/* Demo Info */}
-            <div className="pt-4 border-t border-border">
-              <p className="text-xs text-gray-600 text-center mb-3">Login Credentials:</p>
-              <div className="space-y-2 text-xs text-gray-600 text-center">
-                <p>Email: <span className="font-medium text-gray-900">rahul@gmail.com</span></p>
-                <p>Password: <span className="font-medium text-gray-900">rahul123</span></p>
-              </div>
-            </div>
+            
           </form>
         </div>
 
