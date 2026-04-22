@@ -28,16 +28,16 @@ const navItems = [
     path: "/dashboard/yesterday-result",
     icon: <BarChart3 className="h-5 w-5" />,
   },
-  {
-    label: "Chart Upload",
-    path: "/dashboard/chart-upload",
-    icon: <ImageUp className="h-5 w-5" />,
-  },
-  {
-    label: "Wait Message",
-    path: "/dashboard/wait-message",
-    icon: <MessageSquare className="h-5 w-5" />,
-  },
+  // {
+  //   label: "Chart Upload",
+  //   path: "/dashboard/chart-upload",
+  //   icon: <ImageUp className="h-5 w-5" />,
+  // },
+  // {
+  //   label: "Wait Message",
+  //   path: "/dashboard/wait-message",
+  //   icon: <MessageSquare className="h-5 w-5" />,
+  // },
 ];
 
 export default function DashboardSidebar({ children }) {
@@ -61,7 +61,7 @@ export default function DashboardSidebar({ children }) {
           isMobileOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex flex-col h-full">
+        <div className="flex flex-col h-full bg-white">
           {/* Logo */}
           <div className="flex items-center justify-between gap-3 p-6 border-b border-sidebar-border">
             <Link to="/dashboard" className="flex items-center gap-3">

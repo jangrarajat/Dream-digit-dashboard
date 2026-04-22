@@ -32,11 +32,11 @@ export default function Login() {
         {/* Header */}
         <div className="text-center mb-8">
           <div className="flex justify-center mb-4">
-            <div className="h-16 w-30 rounded-2xl  0 flex items-center justify-center shadow-lg">
+            <div className="h-16 w-30 rounded-2xl  0 flex items-center justify-center ">
               <img src="https://res.cloudinary.com/djtvxmttf/image/upload/v1776599723/mkmk_ckb9cn.png" alt="logo" className="h-full w-full " />
             </div>
           </div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Dream Digit</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">Dream Digit Live Result</h1>
           <p className="text-gray-600">Admin Dashboard</p>
         </div>
 
@@ -64,7 +64,7 @@ export default function Login() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="admin-input"
-                placeholder="rahul@gmail.com"
+                placeholder="Enter your email"
                 disabled={isLoading}
               />
             </div>
@@ -89,7 +89,7 @@ export default function Login() {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full admin-button gap-2 h-11"
+              className="w-full flex justify-center items-center admin-button gap-2 h-11"
             >
               <LogIn className="h-5 w-5" />
               {isLoading ? "Signing in..." : "Sign In"}
@@ -102,7 +102,7 @@ export default function Login() {
 
         {/* Footer */}
         <p className="text-center text-xs text-gray-600 mt-8">
-          © 2024 Dream Digit Dashboard. All rights reserved.
+          © 2026 Dream Digit Live Result Dashboard. All rights reserved.
         </p>
       </div>
     </div>
